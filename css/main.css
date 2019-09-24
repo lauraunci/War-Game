@@ -1,0 +1,61 @@
+html, * {
+    font-family: helvetica;
+    box-sizing: border-box;
+}
+
+body {
+
+    flex-direction: row;
+    background-color: white;
+
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 148, 132);
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    background-color: bisque;
+    justify-content: space-evenly;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+header h1 {
+    text-align: center;
+}
+
+button {
+    width: 20%;
+    margin: 5px 40%;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 4px solid black;
+     
+}
+
+button:hover {
+    background-color: lightskyblue;
+    color: red;
+}
+
+#score1 {
+    margin-top: 50px;
+    scroll-margin-bottom: 50px;
+}
+
+#score2 {
+    margin-top: 50px;
+    scroll-margin-bottom: 50px;
+}
