@@ -59,3 +59,11 @@ button:hover {
     margin-top: 50px;
     scroll-margin-bottom: 50px;
 }
+
+#middle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 40px;
+    color: red;
+}
