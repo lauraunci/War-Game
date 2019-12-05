@@ -121,7 +121,7 @@ function getWinner() {
         gameStarted=false;
         status();
     } 
-    else if (scores.c=== 10) { 
+    else if (scores.c === 10) { 
         display.textContent = "Computer Won!";
         gameStarted=false;
         status();
